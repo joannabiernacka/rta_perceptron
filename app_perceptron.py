@@ -3,7 +3,6 @@ from flask import Flask
 from flask import request
 import numpy as np
 import pickle
-import redis
 
 app = Flask(__name__)
 with open("perceptron_model_iris.pkl", "rb") as model:    
